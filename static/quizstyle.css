@@ -1,0 +1,43 @@
+body {background-color: transparent;
+	max-width: 600 px;
+	margin: 5 auto;
+}
+h1 {color: white; 
+	text-align: center; 
+	font-family: 'Fjalla One', sans-serif; 
+	font-size: 100px;}
+h2 {color: white; 
+	text-align: center; 
+	font-family: Satisfy; 
+	font-size: 50px;}
+h3 {color: black; 
+	text-align: center; 
+	font-family: Helvetica; 
+	font-size: 20px;}
+p {font-family: Helvetica; 
+	font-size: 20px;
+	text-align: center;
+boarder-bottom: 1px
+padding-bottom: 5px;}
+	a {color: #FFD558;}
+html { 
+  background: url(http://www.zastavki.com/pictures/originals/2014/Backgrounds_Wallpapers_with_gradient_background_082013_.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+a:link, a:visited {
+    background-color: #C390D4;;
+    color: white;
+    padding: 14px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+-moz-border-radius: 15px;
+border-radius: 15px;}
+
+
+a:hover, a:active {
+    background-color: #90C3D4;;
+}

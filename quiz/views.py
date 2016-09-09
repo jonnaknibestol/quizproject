@@ -62,6 +62,6 @@ def completed(request, quiz_number):
 		"correct": num_correct_answers,
 		"total": questions.count(),
 	}
-	return render(request, "quiz/completed.html",context)
+	return render(request, "quiz/completedpage.html",context)
 
 

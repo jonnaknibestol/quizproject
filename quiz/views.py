@@ -31,7 +31,7 @@ def question(request, quiz_number, question_number):
 		"quiz_number": quiz_number,
 	}
 
-	return render(request, "quiz/question.html", context)
+	return render(request, "quiz/questionpage.html", context)
 
 def answer(request, quiz_number, question_number):
 	saved_answers = request.session.get(quiz_number, {})

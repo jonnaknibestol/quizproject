@@ -1,6 +1,8 @@
 body {background-color: transparent;
 	max-width: 600 px;
 	margin: 5 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 h1 {color: white; 
 	text-align: center; 
@@ -37,7 +39,6 @@ a:link, a:visited {
 -moz-border-radius: 15px;
 border-radius: 15px;}
 
-
 a:hover, a:active {
     background-color: #90C3D4;;
 }
@@ -45,3 +46,22 @@ a:hover, a:active {
 a:target {
       background-color: #90C3D4;;
 }
+
+button {
+	background-color: #C390D4;;
+    color: white;
+    padding: 14px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+-moz-border-radius: 15px;
+border-radius: 15px;}
+
+button:hover, button:active {
+    background-color: #90C3D4;;
+}
+
+button:target {
+      background-color: #90C3D4;;
+}
+

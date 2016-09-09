@@ -9,27 +9,32 @@
 <link rel="stylesheet" href="/static/quizstyle.css">
 <link href="https://fonts.googleapis.com/css?family=Anton|Archivo+Black|Bungee+Shade|Cookie|Didact+Gothic|Fjalla+One|Josefin+Sans|Lalezar|Open+Sans+Condensed:300|Oxygen|Pacifico|Pattaya|Poiret+One|Satisfy" rel="stylesheet">
 	</head>
-</br>
-</br>
-</br>
-</br>
-</br>
 <h2>What do you know about the 1900-1940's?</h2>
 </br>
 </br>
+
+<form action="{% url 'answer_page' quiz.quiz_number question_number %}" method="post">
+ {% csrf_token %}
+
 <h3>{{ question_number }}. {{ question }}</h3>
 </br>
 </br>
 <div class="container">
 	<div class="row">
-		<div class="col-md-4 Column1"><p><a href="default.asp" target="_blank">{{ answer1 }}</a>
+		<div class="col-md-4 Column1"><p><button name="answer" value="1">{{ answer1 }}</button>
 </p></div>
-		<div class="col-md-4 Column2"><p><a href="default.asp" target="_blank">{{ answer2 }}</a>
+		<div class="col-md-4 Column2"><p><button name="answer" value="2">{{ answer2 }}</button>
 </p></div>
-		<div class="col-md-4 Column3"><p><a href="default.asp" target="_blank">{{ answer3 }}</a>
+		<div class="col-md-4 Column3"><p><button name="answer" value="3">{{ answer3 }}</button>
 </p></div>
 </br>
 </br>
 </br>
 </br>
+
 <p><a href="{% url 'completed_page' quiz_number %}">Next</a></p>
+</br>
+</br>
+</br>
+</form> 
+

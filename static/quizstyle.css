@@ -41,3 +41,7 @@ border-radius: 15px;}
 a:hover, a:active {
     background-color: #90C3D4;;
 }
+
+a:target {
+      background-color: #90C3D4;;
+}

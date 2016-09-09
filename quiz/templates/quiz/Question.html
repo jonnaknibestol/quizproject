@@ -14,30 +14,22 @@
 </br>
 </br>
 </br>
-<h2>What happened during 1970-2000?</h2>
+<h2>What do you know about the 1900-1940's?</h2>
 </br>
 </br>
-<h3>Bill Clinton was the President of the United States between 1993-2001. 
-What was the name of his Vice President?</h3>
+<h3>{{ question_number }}. {{ question }}</h3>
 </br>
 </br>
 <div class="container">
 	<div class="row">
-		<div class="col-md-4 Column1"><p><a href="default.asp" target="_blank">Al Gore</a>
+		<div class="col-md-4 Column1"><p><a href="default.asp" target="_blank">{{ answer1 }}</a>
 </p></div>
-		<div class="col-md-4 Column2"><p><a href="default.asp" target="_blank">Al Score</a>
+		<div class="col-md-4 Column2"><p><a href="default.asp" target="_blank">{{ answer2 }}</a>
 </p></div>
-		<div class="col-md-4 Column3"><p><a href="default.asp" target="_blank">Al No More</a>
+		<div class="col-md-4 Column3"><p><a href="default.asp" target="_blank">{{ answer3 }}</a>
 </p></div>
 </br>
 </br>
 </br>
 </br>
-</br>
-</br>
-<h1>{{ question_number }}. {{ question }}</h1>
-	<p>{{ answer1 }}</p>
-	<p>{{ answer2 }}</p>
-	<p>{{ answer3 }}</p>
-
 <p><a href="{% url 'completed_page' quiz_number %}">Next</a></p>
